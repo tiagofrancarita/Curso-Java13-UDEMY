@@ -4,12 +4,12 @@ public class Temperatura {
 
 	public static void main(String[] args) {
 		
-		double F=20;
-		final double f1=32;
-		final double x = 5/9.0;
+		double F=86;
+		final double ajuste=32;
+		final double fator = 5/9.0;
 		double conversao;
 		
-		conversao =(F - f1) * x;
+		conversao =(F - ajuste) * fator;
 		
 		System.out.println("A conversão de Fahrenheit para  Celsius é :" + conversao  +"ºC");
 
